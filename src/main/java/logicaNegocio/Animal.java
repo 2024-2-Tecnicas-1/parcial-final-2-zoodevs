@@ -3,7 +3,7 @@ package logicaNegocio;
 public abstract class Animal {
     
     private final String nombre;
-    private final TipoHabitat habitat;
+    private  TipoHabitat habitat;
     
     public Animal(String nombre, TipoHabitat habitat){
         this.nombre = nombre;

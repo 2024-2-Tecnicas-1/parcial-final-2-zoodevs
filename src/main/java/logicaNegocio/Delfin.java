@@ -3,7 +3,7 @@ package logicaNegocio;
 public class Delfin extends Animal {
     
     public Delfin(){
-       super("Delfin", TipoHabitat habitat.ACUATICO)
+       super("Delfin", TipoHabitat.ACUATICO);
     }
 
     @Override
