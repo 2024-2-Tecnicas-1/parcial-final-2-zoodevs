@@ -1,6 +1,6 @@
 package logicaNegocio;
 
-public class Perro extends Animal implements Domestico{
+public class Perro extends Animal  implements Domestico{
    
 
     public Perro() {
