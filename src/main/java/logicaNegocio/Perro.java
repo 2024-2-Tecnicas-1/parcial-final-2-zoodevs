@@ -16,7 +16,6 @@ public class Perro extends Animal implements Domestico{
         return "Omnívoro";
     }
     
-   
     @Override
     public String interactuarConHumano() {
         return "El perro mueve la cola y ladra de felicidad";
