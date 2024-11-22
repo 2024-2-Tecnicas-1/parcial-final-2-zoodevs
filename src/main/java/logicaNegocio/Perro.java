@@ -6,6 +6,7 @@ public class Perro extends Animal implements Domestico{
     public Perro() {
         super("Perro", TipoHabitat.TERRESTRE);
     }
+    @Override
     public String emitirSonido() {
         return "Ladrido";
     }
